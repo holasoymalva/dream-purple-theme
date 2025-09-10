@@ -2,7 +2,7 @@
   "name": "dream-purple-theme",
   "displayName": "Dream Purple",
   "description": "A beautiful dark theme featuring deep purple backgrounds with vibrant orange accents, inspired by Acid Purple Orange. Perfect for comfortable coding sessions with excellent syntax highlighting.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "holasoymalva",
   "icon": "dream-purple.png",
   "engines": {
@@ -45,5 +45,6 @@
     "url": "https://github.com/holasoymalva/dream-purple-theme/issues"
   },
   "homepage": "https://github.com/holasoymalva/dream-purple-theme#readme",
-  "license": "MIT"
+  "license": "MIT",
+  "private": false
 }
