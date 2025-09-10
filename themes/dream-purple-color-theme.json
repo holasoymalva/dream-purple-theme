@@ -51,7 +51,6 @@
     "tab.unfocusedActiveBorder": "#4a2c5a",
     "tab.unfocusedInactiveBackground": "#2d1b3d",
     "tab.unfocusedInactiveForeground": "#8b7a9b60",
-    "tabsContainer.border": "#4a2c5a",
     
     // Terminal panel colors and integrated terminal styling
     "terminal.background": "#1a0d26",
@@ -157,7 +156,155 @@
     
     // Tree styling
     "tree.indentGuidesStroke": "#4a2c5a",
-    "tree.tableColumnsBorder": "#4a2c5a"
+    "tree.tableColumnsBorder": "#4a2c5a",
+    
+    // Interactive state colors - Hover states for buttons and interactive elements
+    "button.hoverBackground": "#ff8c42",
+    "button.secondaryHoverBackground": "#6b4c7a",
+    "checkbox.background": "#2d1b3d",
+    "checkbox.foreground": "#f4f1f4",
+    "checkbox.border": "#4a2c5a",
+    "checkbox.selectBackground": "#ff6b35",
+    "checkbox.selectBorder": "#ff6b35",
+    
+    // Focus ring colors and selection highlighting
+    "focusBorder": "#ff6b35",
+    "selection.background": "#ff6b3540",
+    "widget.shadow": "#1a0d2680",
+    "editorWidget.background": "#2d1b3d",
+    "editorWidget.foreground": "#f4f1f4",
+    "editorWidget.border": "#4a2c5a",
+    "editorWidget.resizeBorder": "#ff6b35",
+    "pickerGroup.border": "#4a2c5a",
+    "pickerGroup.foreground": "#ff8c42",
+    
+    // Error, warning, and info color definitions
+    "errorForeground": "#ff6b6b",
+    "warningForeground": "#ff8c42",
+    "infoForeground": "#82b1ff",
+    "editorError.foreground": "#ff6b6b",
+    "editorWarning.foreground": "#ff8c42",
+    "editorInfo.foreground": "#82b1ff",
+    "editorHint.foreground": "#64ffda",
+    "problemsErrorIcon.foreground": "#ff6b6b",
+    "problemsWarningIcon.foreground": "#ff8c42",
+    "problemsInfoIcon.foreground": "#82b1ff",
+    
+    // Enhanced list selection and hover colors
+    "list.dropBackground": "#ff6b3540",
+    "list.errorForeground": "#ff6b6b",
+    "list.warningForeground": "#ff8c42",
+    "list.deemphasizedForeground": "#8b7a9b",
+    "list.filterMatchBackground": "#ff6b3540",
+    "list.filterMatchBorder": "#ff6b35",
+    
+    // Menu and context menu colors
+    "menu.background": "#2d1b3d",
+    "menu.foreground": "#f4f1f4",
+    "menu.selectionBackground": "#ff6b3530",
+    "menu.selectionForeground": "#f4f1f4",
+    "menu.selectionBorder": "#ff6b35",
+    "menu.separatorBackground": "#4a2c5a",
+    "menu.border": "#4a2c5a",
+    "menubar.selectionBackground": "#ff6b3530",
+    "menubar.selectionForeground": "#f4f1f4",
+    "menubar.selectionBorder": "#ff6b35",
+    
+    // Quick input and command palette
+    "quickInput.background": "#2d1b3d",
+    "quickInput.foreground": "#f4f1f4",
+    "quickInputList.focusBackground": "#ff6b3530",
+    "quickInputList.focusForeground": "#f4f1f4",
+    "quickInputTitle.background": "#1a0d26",
+    
+    // Scrollbar colors for better interactivity
+    "scrollbar.shadow": "#1a0d2680",
+    "scrollbarSlider.background": "#4a2c5a60",
+    "scrollbarSlider.hoverBackground": "#4a2c5a80",
+    "scrollbarSlider.activeBackground": "#ff6b3580",
+    
+    // Editor gutter and line number hover states
+    "editorLineNumber.foreground": "#8b7a9b",
+    "editorLineNumber.activeForeground": "#ff6b35",
+    "editorGutter.background": "#1a0d26",
+    "editorGutter.modifiedBackground": "#ff8c42",
+    "editorGutter.addedBackground": "#64ffda",
+    "editorGutter.deletedBackground": "#ff6b6b",
+    "editorGutter.foldingControlForeground": "#8b7a9b",
+    
+    // Breadcrumb navigation
+    "breadcrumb.background": "#1a0d26",
+    "breadcrumb.foreground": "#8b7a9b",
+    "breadcrumb.focusForeground": "#f4f1f4",
+    "breadcrumb.activeSelectionForeground": "#ff6b35",
+    "breadcrumbPicker.background": "#2d1b3d",
+    
+    // Title bar (for when VS Code controls the title bar)
+    "titleBar.activeBackground": "#1a0d26",
+    "titleBar.activeForeground": "#f4f1f4",
+    "titleBar.inactiveBackground": "#2d1b3d",
+    "titleBar.inactiveForeground": "#8b7a9b",
+    "titleBar.border": "#4a2c5a",
+    
+    // Editor overview ruler (minimap area)
+    "editorOverviewRuler.border": "#4a2c5a",
+    "editorOverviewRuler.errorForeground": "#ff6b6b",
+    "editorOverviewRuler.warningForeground": "#ff8c42",
+    "editorOverviewRuler.infoForeground": "#82b1ff",
+    "editorOverviewRuler.bracketMatchForeground": "#ff6b35",
+    "editorOverviewRuler.findMatchForeground": "#ff8c42",
+    "editorOverviewRuler.selectionHighlightForeground": "#ff6b3560",
+    
+    // Peek view colors for better interactivity
+    "peekView.border": "#ff6b35",
+    "peekViewEditor.background": "#2d1b3d",
+    "peekViewEditor.matchHighlightBackground": "#ff6b3540",
+    "peekViewResult.background": "#1a0d26",
+    "peekViewResult.fileForeground": "#f4f1f4",
+    "peekViewResult.lineForeground": "#8b7a9b",
+    "peekViewResult.matchHighlightBackground": "#ff6b3540",
+    "peekViewResult.selectionBackground": "#ff6b3530",
+    "peekViewResult.selectionForeground": "#f4f1f4",
+    "peekViewTitle.background": "#1a0d26",
+    "peekViewTitleDescription.foreground": "#8b7a9b",
+    "peekViewTitleLabel.foreground": "#ff6b35",
+    
+    // Additional interactive elements for comprehensive coverage
+    "keybindingLabel.background": "#2d1b3d",
+    "keybindingLabel.foreground": "#f4f1f4",
+    "keybindingLabel.border": "#4a2c5a",
+    "keybindingLabel.bottomBorder": "#ff6b35",
+    
+    // Welcome page and walkthrough colors
+    "welcomePage.background": "#1a0d26",
+    "welcomePage.buttonBackground": "#ff6b35",
+    "welcomePage.buttonHoverBackground": "#ff8c42",
+    "walkThrough.embeddedEditorBackground": "#2d1b3d",
+    
+    // Git decoration colors for interactive states
+    "gitDecoration.addedResourceForeground": "#64ffda",
+    "gitDecoration.modifiedResourceForeground": "#ff8c42",
+    "gitDecoration.deletedResourceForeground": "#ff6b6b",
+    "gitDecoration.untrackedResourceForeground": "#c792ea",
+    "gitDecoration.ignoredResourceForeground": "#8b7a9b",
+    "gitDecoration.conflictingResourceForeground": "#ff6b35",
+    "gitDecoration.submoduleResourceForeground": "#82b1ff",
+    
+    // Merge conflict colors
+    "merge.currentHeaderBackground": "#64ffda40",
+    "merge.currentContentBackground": "#64ffda20",
+    "merge.incomingHeaderBackground": "#82b1ff40",
+    "merge.incomingContentBackground": "#82b1ff20",
+    "merge.border": "#4a2c5a",
+    "merge.commonContentBackground": "#8b7a9b20",
+    "merge.commonHeaderBackground": "#8b7a9b40",
+    
+    // Diff editor colors for interactive comparison
+    "diffEditor.insertedTextBackground": "#64ffda20",
+    "diffEditor.removedTextBackground": "#ff6b6b20",
+    "diffEditor.insertedLineBackground": "#64ffda10",
+    "diffEditor.removedLineBackground": "#ff6b6b10",
+    "diffEditor.diagonalFill": "#8b7a9b40"
   },
   "tokenColors": [
     // Comments
