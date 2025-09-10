@@ -1,7 +1,7 @@
 {
   "name": "dream-purple-theme",
   "displayName": "Dream Purple",
-  "description": "A beautiful purple theme with orange accents inspired by Acid Purple Orange",
+  "description": "A beautiful dark theme featuring deep purple backgrounds with vibrant orange accents, inspired by Acid Purple Orange. Perfect for comfortable coding sessions with excellent syntax highlighting.",
   "version": "1.0.0",
   "publisher": "dream-purple-publisher",
   "engines": {
@@ -10,13 +10,24 @@
   "categories": [
     "Themes"
   ],
+  "galleryBanner": {
+    "color": "#1a0d26",
+    "theme": "dark"
+  },
+  "icon": "icon.png",
   "keywords": [
     "theme",
     "purple",
     "orange",
     "dark",
-    "color-theme"
+    "color-theme",
+    "acid-purple",
+    "dream",
+    "syntax-highlighting",
+    "vscode-theme"
   ],
+  "qna": "marketplace",
+  "extensionDependencies": [],
   "contributes": {
     "themes": [
       {
@@ -28,11 +39,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/dream-purple-theme.git"
+    "url": "https://github.com/holasoymalva/dream-purple-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/dream-purple-theme/issues"
+    "url": "https://github.com/holasoymalva/dream-purple-theme/issues"
   },
-  "homepage": "https://github.com/your-username/dream-purple-theme#readme",
+  "homepage": "https://github.com/holasoymalva/dream-purple-theme#readme",
   "license": "MIT"
 }
