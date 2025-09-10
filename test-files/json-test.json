@@ -1,0 +1,226 @@
+{
+  "name": "dream-purple-theme-test",
+  "version": "1.0.0",
+  "description": "JSON semantic highlighting test file for Dream Purple VS Code theme",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write src/**/*.js"
+  },
+  "keywords": [
+    "vscode",
+    "theme",
+    "purple",
+    "semantic-highlighting",
+    "json-test"
+  ],
+  "author": {
+    "name": "Dream Purple Theme Developer",
+    "email": "developer@dreampurple.com",
+    "url": "https://github.com/dreampurple"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dreampurple/vscode-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dreampurple/vscode-theme/issues"
+  },
+  "homepage": "https://github.com/dreampurple/vscode-theme#readme",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0",
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dream Purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dream-purple-color-theme.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "axios": "^1.6.0",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "eslint": "^8.50.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.0",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.3"
+  },
+  "bundledDependencies": [],
+  "config": {
+    "theme": {
+      "primaryColor": "#ff6b35",
+      "secondaryColor": "#c792ea",
+      "backgroundColor": "#1a0d26",
+      "textColor": "#f4f1f4"
+    },
+    "features": {
+      "semanticHighlighting": true,
+      "syntaxHighlighting": true,
+      "uiTheming": true,
+      "iconTheming": false
+    }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "files": [
+    "themes/",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "capabilities": {
+    "virtualWorkspaces": true,
+    "untrustedWorkspaces": {
+      "supported": true
+    }
+  },
+  "galleryBanner": {
+    "color": "#1a0d26",
+    "theme": "dark"
+  },
+  "icon": "icon.png",
+  "preview": false,
+  "badges": [
+    {
+      "url": "https://img.shields.io/badge/VS%20Code-Theme-blue",
+      "href": "https://marketplace.visualstudio.com/items?itemName=dreampurple.theme",
+      "description": "VS Code Theme"
+    }
+  ],
+  "markdown": "github",
+  "qna": "marketplace",
+  "pricing": "Free",
+  "localizedLanguages": [
+    "en",
+    "es",
+    "fr",
+    "de",
+    "ja",
+    "zh-cn"
+  ],
+  "testData": {
+    "stringValue": "This is a test string with special characters: !@#$%^&*()",
+    "numberValue": 42,
+    "floatValue": 3.14159,
+    "booleanTrue": true,
+    "booleanFalse": false,
+    "nullValue": null,
+    "arrayOfStrings": [
+      "first",
+      "second",
+      "third"
+    ],
+    "arrayOfNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "arrayOfMixed": [
+      "string",
+      123,
+      true,
+      null,
+      {
+        "nested": "object"
+      }
+    ],
+    "nestedObject": {
+      "level1": {
+        "level2": {
+          "level3": {
+            "deepValue": "Found me!",
+            "deepNumber": 999,
+            "deepArray": [
+              {
+                "id": 1,
+                "name": "Item 1"
+              },
+              {
+                "id": 2,
+                "name": "Item 2"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "specialCharacters": {
+      "unicode": "🎨 🌈 ✨ 🚀 💜",
+      "escaped": "Line 1\nLine 2\tTabbed\r\nWindows line ending",
+      "quotes": "String with \"double quotes\" and 'single quotes'",
+      "backslashes": "Path\\to\\file.txt",
+      "url": "https://example.com/path?param=value&other=123"
+    },
+    "colorPalette": {
+      "primary": "#ff6b35",
+      "secondary": "#c792ea",
+      "accent": "#ff8c42",
+      "background": "#1a0d26",
+      "surface": "#2d1b3d",
+      "text": "#f4f1f4",
+      "textSecondary": "#8b7a9b",
+      "success": "#64ffda",
+      "warning": "#ff8c42",
+      "error": "#ff6b6b",
+      "info": "#82b1ff"
+    },
+    "semanticTokens": {
+      "namespace": "#c792ea",
+      "class": "#c792ea",
+      "interface": "#82b1ff",
+      "function": "#82b1ff",
+      "variable": "#f4f1f4",
+      "property": "#82b1ff",
+      "keyword": "#ff6b35",
+      "string": "#64ffda",
+      "number": "#ff8c42",
+      "comment": "#8b7a9b"
+    }
+  },
+  "vscode": {
+    "extensionPack": [],
+    "extensionDependencies": []
+  }
+}

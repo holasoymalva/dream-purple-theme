@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XML Semantic Highlighting Test for Dream Purple Theme -->
+<!DOCTYPE theme [
+    <!ELEMENT theme (metadata, colors, syntax, ui)>
+    <!ELEMENT metadata (name, version, description, author)>
+    <!ELEMENT colors (primary, secondary, background, text)>
+    <!ATTLIST theme
+        type (dark|light) #REQUIRED
+        version CDATA #IMPLIED>
+]>
+
+<theme type="dark" version="1.0" xmlns:dp="http://dreampurple.com/theme"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://dreampurple.com/theme theme.xsd">
+    
+    <!-- Theme metadata -->
+    <metadata>
+        <name>Dream Purple</name>
+        <version>1.0.0</version>
+        <description><![CDATA[
+            A beautiful VS Code theme with purple backgrounds and orange accents.
+            Optimized for readability and modern development workflows.
+        ]]></description>
+        <author email="developer@dreampurple.com" website="https://dreampurple.com">
+            Dream Purple Developer
+        </author>
+        <keywords>
+            <keyword>purple</keyword>
+            <keyword>orange</keyword>
+            <keyword>dark</keyword>
+            <keyword>semantic</keyword>
+        </keywords>
+    </metadata>
+    
+    <!-- Color palette definition -->
+    <colors>
+        <primary hex="#ff6b35" name="Orange Accent" />
+        <secondary hex="#c792ea" name="Purple Accent" />
+        <background hex="#1a0d26" name="Dark Purple Background" />
+        <surface hex="#2d1b3d" name="Medium Purple Surface" />
+        <text hex="#f4f1f4" name="Light Text" />
+        <textSecondary hex="#8b7a9b" name="Muted Text" />
+        
+        <!-- Additional color variations -->
+        <dp:colorVariations>
+            <dp:variation name="hover" opacity="0.8" />
+            <dp:variation name="active" opacity="1.0" />
+            <dp:variation name="disabled" opacity="0.5" />
+        </dp:colorVariations>
+    </colors>
+    
+    <!-- Syntax highlighting configuration -->
+    <syntax>
+        <tokenColors>
+            <token scope="keyword" color="#ff6b35" fontStyle="bold" />
+            <token scope="string" color="#64ffda" fontStyle="normal" />
+            <token scope="comment" color="#8b7a9b" fontStyle="italic" />
+            <token scope="function" color="#82b1ff" fontStyle="normal" />
+            <token scope="variable" color="#f4f1f4" fontStyle="normal" />
+            <token scope="number" color="#ff8c42" fontStyle="normal" />
+            <token scope="type" color="#c792ea" fontStyle="normal" />
+            <token scope="operator" color="#ff6b35" fontStyle="normal" />
+            <token scope="punctuation" color="#8b7a9b" fontStyle="normal" />
+        </tokenColors>
+        
+        <!-- Semantic token colors -->
+        <semanticTokens>
+            <semanticToken type="namespace" color="#c792ea" />
+            <semanticToken type="class" color="#c792ea" />
+            <semanticToken type="interface" color="#82b1ff" />
+            <semanticToken type="function" color="#82b1ff" />
+            <semanticToken type="method" color="#82b1ff" />
+            <semanticToken type="property" color="#82b1ff" />
+            <semanticToken type="variable" color="#f4f1f4" />
+            <semanticToken type="parameter" color="#f4f1f4" />
+        </semanticTokens>
+    </syntax>
+    
+    <!-- UI element colors -->
+    <ui>
+        <editor>
+            <background color="#1a0d26" />
+            <foreground color="#f4f1f4" />
+            <selection color="#4a2c5a" opacity="0.6" />
+            <lineHighlight color="#2d1b3d" opacity="0.5" />
+            <cursor color="#ff6b35" />
+        </editor>
+        
+        <activityBar>
+            <background color="#1a0d26" />
+            <foreground color="#8b7a9b" />
+            <activeForeground color="#ff6b35" />
+            <inactiveForeground color="#8b7a9b" />
+        </activityBar>
+        
+        <sideBar>
+            <background color="#2d1b3d" />
+            <foreground color="#f4f1f4" />
+            <border color="#4a2c5a" />
+        </sideBar>
+        
+        <statusBar>
+            <background color="#1a0d26" />
+            <foreground color="#f4f1f4" />
+            <noFolderBackground color="#1a0d26" />
+            <debuggingBackground color="#ff6b35" />
+        </statusBar>
+        
+        <tabs>
+            <activeBackground color="#2d1b3d" />
+            <activeForeground color="#f4f1f4" />
+            <inactiveBackground color="#1a0d26" />
+            <inactiveForeground color="#8b7a9b" />
+            <border color="#4a2c5a" />
+        </tabs>
+        
+        <terminal>
+            <background color="#1a0d26" />
+            <foreground color="#f4f1f4" />
+            <cursor color="#ff6b35" />
+            <selection color="#4a2c5a" />
+            
+            <!-- ANSI colors -->
+            <ansiColors>
+                <color name="black" value="#1a0d26" />
+                <color name="red" value="#ff6b6b" />
+                <color name="green" value="#64ffda" />
+                <color name="yellow" value="#ff8c42" />
+                <color name="blue" value="#82b1ff" />
+                <color name="magenta" value="#c792ea" />
+                <color name="cyan" value="#64ffda" />
+                <color name="white" value="#f4f1f4" />
+                <color name="brightBlack" value="#4a2c5a" />
+                <color name="brightRed" value="#ff8a80" />
+                <color name="brightGreen" value="#b2dfdb" />
+                <color name="brightYellow" value="#ffcc80" />
+                <color name="brightBlue" value="#b3d9ff" />
+                <color name="brightMagenta" value="#e1bee7" />
+                <color name="brightCyan" value="#b2dfdb" />
+                <color name="brightWhite" value="#ffffff" />
+            </ansiColors>
+        </terminal>
+    </ui>
+    
+    <!-- Accessibility configuration -->
+    <accessibility>
+        <contrastRatios>
+            <ratio type="normalText" minimum="4.5" />
+            <ratio type="largeText" minimum="3.0" />
+            <ratio type="uiComponents" minimum="3.0" />
+        </contrastRatios>
+        
+        <colorBlindnessSupport>
+            <support type="protanopia" tested="true" />
+            <support type="deuteranopia" tested="true" />
+            <support type="tritanopia" tested="true" />
+        </colorBlindnessSupport>
+        
+        <wcagCompliance level="AA" />
+    </accessibility>
+    
+    <!-- Extension configuration -->
+    <extensions>
+        <extension name="bracket-pair-colorizer" supported="true">
+            <colors>
+                <color level="0" value="#ff6b35" />
+                <color level="1" value="#c792ea" />
+                <color level="2" value="#82b1ff" />
+                <color level="3" value="#64ffda" />
+            </colors>
+        </extension>
+        
+        <extension name="indent-rainbow" supported="true">
+            <colors>
+                <color level="0" value="rgba(255, 107, 53, 0.1)" />
+                <color level="1" value="rgba(199, 146, 234, 0.1)" />
+                <color level="2" value="rgba(130, 177, 255, 0.1)" />
+                <color level="3" value="rgba(100, 255, 218, 0.1)" />
+            </colors>
+        </extension>
+    </extensions>
+    
+    <!-- Testing configuration -->
+    <testing>
+        <syntaxTests>
+            <test language="javascript" file="test-files/javascript-test.js" />
+            <test language="typescript" file="test-files/typescript-test.ts" />
+            <test language="python" file="test-files/python-test.py" />
+            <test language="html" file="test-files/html-css-test.html" />
+            <test language="json" file="test-files/json-test.json" />
+            <test language="yaml" file="test-files/yaml-test.yaml" />
+            <test language="xml" file="test-files/xml-test.xml" />
+            <test language="markdown" file="test-files/markdown-test.md" />
+        </syntaxTests>
+        
+        <uiTests>
+            <test component="editor" scenario="basic-editing" />
+            <test component="sidebar" scenario="file-navigation" />
+            <test component="terminal" scenario="command-execution" />
+            <test component="statusbar" scenario="status-display" />
+        </uiTests>
+    </testing>
+    
+    <!-- Build and deployment -->
+    <build>
+        <target platform="vscode" minVersion="1.74.0" />
+        <output format="vsix" filename="dream-purple-theme.vsix" />
+        
+        <files>
+            <include pattern="themes/**/*" />
+            <include pattern="README.md" />
+            <include pattern="CHANGELOG.md" />
+            <include pattern="LICENSE" />
+            <exclude pattern="test-files/**/*" />
+            <exclude pattern="scripts/**/*" />
+        </files>
+    </build>
+    
+    <!-- Namespace declarations for custom elements -->
+    <dp:customizations>
+        <dp:feature name="gradient-backgrounds" enabled="false" />
+        <dp:feature name="animated-cursors" enabled="false" />
+        <dp:feature name="custom-fonts" enabled="false" />
+        
+        <dp:experimental>
+            <dp:feature name="ai-color-suggestions" enabled="false" />
+            <dp:feature name="dynamic-theming" enabled="false" />
+        </dp:experimental>
+    </dp:customizations>
+    
+    <!-- Processing instructions -->
+    <?theme-processor version="1.0" ?>
+    <?color-validator strict="true" ?>
+    
+</theme>
+
+<!-- Additional XML constructs for testing -->
+<!-- 
+Multi-line comment
+demonstrating XML comment syntax
+highlighting in the Dream Purple theme
+-->
+
+<!-- Entity references and special characters -->
+<!-- &lt; &gt; &amp; &quot; &apos; -->
+
+<!-- CDATA sections -->
+<![CDATA[
+This is a CDATA section that can contain
+special characters like < > & without escaping.
+It's useful for including code snippets or other
+content that might conflict with XML syntax.
+]]>
