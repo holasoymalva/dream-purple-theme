@@ -3,7 +3,7 @@
   "displayName": "Dream Purple",
   "description": "A beautiful dark theme featuring deep purple backgrounds with vibrant orange accents, inspired by Acid Purple Orange. Perfect for comfortable coding sessions with excellent syntax highlighting.",
   "version": "1.0.0",
-  "publisher": "tu-nombre-publisher",
+  "publisher": "holasoymalva",
   "engines": {
     "vscode": "^1.74.0"
   },
