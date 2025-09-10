@@ -1,104 +1,103 @@
 # Dream Purple Theme
 
-A beautiful VS Code theme with deep purple backgrounds and vibrant orange accents, inspired by the Acid Purple Orange aesthetic. Perfect for developers who want a visually striking yet comfortable coding environment.
+Un hermoso tema para VS Code con fondos púrpura profundos y acentos naranjas vibrantes, inspirado en la estética Acid Purple Orange. Perfecto para desarrolladores que buscan un entorno de codificación visualmente impactante pero cómodo.
 
-## 🎨 Preview
+## 🎨 Vista Previa
 
-![Dream Purple Theme - JavaScript Example](./screenshots/javascript-typescript.png)
-*JavaScript/TypeScript syntax highlighting with Dream Purple theme*
+> **📸 Capturas de pantalla próximamente**: Estamos preparando capturas de pantalla de alta calidad que muestren el tema en acción con diferentes lenguajes de programación y la interfaz completa de VS Code.
 
-![Dream Purple Theme - Full Interface](./screenshots/interface-overview.png)
-*Complete VS Code interface showing the Dream Purple theme*
+### Colores Principales
+- **Fondo Principal**: `#1a0d26` - Púrpura profundo para el editor principal
+- **Fondo Secundario**: `#2d1b3d` - Púrpura medio para barras laterales  
+- **Naranja Primario**: `#ff6b35` - Naranja vibrante para resaltados
+- **Texto Principal**: `#f4f1f4` - Blanco cálido para texto principal
 
-![Dream Purple Theme - HTML/CSS Example](./screenshots/html-css-styling.png)
-*Web development with HTML and CSS highlighting*
+> **Nota**: El tema funciona con cualquier fuente de tu elección. Se recomienda usar fuentes como Fira Code, JetBrains Mono o Cascadia Code para una mejor experiencia.
 
-> **Note**: Screenshots show the theme with Fira Code font. The theme works with any font of your choice.
+## ✨ Características
 
-## ✨ Features
+- **Fondo Púrpura Profundo**: Suave para los ojos durante largas sesiones de codificación
+- **Acentos Naranjas Vibrantes**: Resalta elementos importantes de la UI y sintaxis
+- **Resaltado de Sintaxis Completo**: Soporte para JavaScript, TypeScript, HTML, CSS, JSON, Markdown y más
+- **Tematización Completa de UI**: Cada elemento de la interfaz de VS Code está cuidadosamente estilizado
+- **Enfoque en Accesibilidad**: Altos ratios de contraste para mejor legibilidad
+- **Diseño Moderno**: Estética limpia y contemporánea que mejora el enfoque
 
-- **Deep Purple Background**: Easy on the eyes during long coding sessions
-- **Vibrant Orange Accents**: Highlights important UI elements and syntax
-- **Comprehensive Syntax Highlighting**: Support for JavaScript, TypeScript, HTML, CSS, JSON, Markdown, and more
-- **Complete UI Theming**: Every VS Code interface element is carefully styled
-- **Accessibility Focused**: High contrast ratios for better readability
-- **Modern Design**: Clean, contemporary aesthetic that enhances focus
+## 🚀 Instalación
 
-## 🚀 Installation
+### Método 1: VS Code Marketplace (Recomendado)
 
-### Method 1: VS Code Marketplace (Recommended)
+1. **Abrir Vista de Extensiones**
+   - Presiona `Ctrl+Shift+X` (Windows/Linux) o `Cmd+Shift+X` (Mac)
+   - O haz clic en el ícono de Extensiones en la Barra de Actividad
 
-1. **Open Extensions View**
-   - Press `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (Mac)
-   - Or click the Extensions icon in the Activity Bar
+2. **Buscar e Instalar**
+   - Busca "Dream Purple"
+   - Haz clic en el botón **Instalar** del tema Dream Purple
 
-2. **Search and Install**
-   - Search for "Dream Purple"
-   - Click the **Install** button on the Dream Purple theme
+3. **Activar el Tema**
+   - Presiona `Ctrl+K Ctrl+T` (Windows/Linux) o `Cmd+K Cmd+T` (Mac)
+   - O ve a **Archivo > Preferencias > Tema de Color**
+   - Selecciona **"Dream Purple"** de la lista
 
-3. **Activate the Theme**
-   - Press `Ctrl+K Ctrl+T` (Windows/Linux) or `Cmd+K Cmd+T` (Mac)
-   - Or go to **File > Preferences > Color Theme**
-   - Select **"Dream Purple"** from the list
+### Método 2: Instalación Manual desde VSIX
 
-### Method 2: Manual Installation from VSIX
+1. **Descargar Paquete del Tema**
+   - Obtén el archivo `.vsix` más reciente desde [GitHub Releases](https://github.com/holasoymalva/dream-purple-theme/releases)
 
-1. **Download Theme Package**
-   - Get the latest `.vsix` file from [GitHub Releases](https://github.com/your-username/dream-purple-theme/releases)
+2. **Instalar desde VSIX**
+   - Abre VS Code
+   - Presiona `Ctrl+Shift+P` (Windows/Linux) o `Cmd+Shift+P` (Mac)
+   - Escribe y selecciona **"Extensions: Install from VSIX..."**
+   - Navega y selecciona el archivo `.vsix` descargado
 
-2. **Install from VSIX**
-   - Open VS Code
-   - Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac)
-   - Type and select **"Extensions: Install from VSIX..."**
-   - Navigate to and select the downloaded `.vsix` file
+3. **Activar el Tema**
+   - Reinicia VS Code (si se solicita)
+   - Presiona `Ctrl+K Ctrl+T` o ve a **Archivo > Preferencias > Tema de Color**
+   - Selecciona **"Dream Purple"**
 
-3. **Activate the Theme**
-   - Restart VS Code (if prompted)
-   - Press `Ctrl+K Ctrl+T` or go to **File > Preferences > Color Theme**
-   - Select **"Dream Purple"**
+### Método 3: Instalación para Desarrollo
 
-### Method 3: Development Installation
+Para desarrolladores que quieren modificar o contribuir al tema:
 
-For developers who want to modify or contribute to the theme:
-
-1. **Clone Repository**
+1. **Clonar Repositorio**
    ```bash
-   git clone https://github.com/your-username/dream-purple-theme.git
+   git clone https://github.com/holasoymalva/dream-purple-theme.git
    cd dream-purple-theme
    ```
 
-2. **Install Dependencies**
+2. **Instalar Dependencias**
    ```bash
    npm install -g vsce
    ```
 
-3. **Package Theme**
+3. **Empaquetar Tema**
    ```bash
    vsce package
    ```
 
-4. **Install Locally**
-   - Follow Method 2 using the generated `.vsix` file
+4. **Instalar Localmente**
+   - Sigue el Método 2 usando el archivo `.vsix` generado
 
-## 💡 Usage Tips
+## 💡 Consejos de Uso
 
-### Recommended Settings
+### Configuraciones Recomendadas
 
-For the best experience with Dream Purple, consider these VS Code settings:
+Para la mejor experiencia con Dream Purple, considera estas configuraciones de VS Code:
 
 ```json
 {
-  // Font recommendations
+  // Recomendaciones de fuente
   "editor.fontFamily": "'Fira Code', 'JetBrains Mono', 'Cascadia Code', Consolas, monospace",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   
-  // Enhanced theme experience
+  // Experiencia mejorada del tema
   "workbench.iconTheme": "material-icon-theme",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
   
-  // Optimal display settings
+  // Configuraciones óptimas de visualización
   "editor.renderWhitespace": "boundary",
   "editor.renderControlCharacters": true,
   "editor.minimap.enabled": true,
@@ -106,60 +105,60 @@ For the best experience with Dream Purple, consider these VS Code settings:
 }
 ```
 
-### Font Recommendations
+### Fuentes Recomendadas
 
-Dream Purple looks great with these coding fonts:
-- **Fira Code** - Excellent ligature support
-- **JetBrains Mono** - Clean, modern appearance
-- **Cascadia Code** - Microsoft's coding font with ligatures
-- **Source Code Pro** - Adobe's open-source monospace font
-- **Operator Mono** - Premium font with italic support
+Dream Purple se ve genial con estas fuentes de programación:
+- **Fira Code** - Excelente soporte para ligaduras
+- **JetBrains Mono** - Apariencia limpia y moderna
+- **Cascadia Code** - Fuente de programación de Microsoft con ligaduras
+- **Source Code Pro** - Fuente monoespaciada de código abierto de Adobe
+- **Operator Mono** - Fuente premium con soporte para cursivas
 
-### Extension Compatibility
+### Compatibilidad con Extensiones
 
-Dream Purple works well with popular VS Code extensions:
-- **Material Icon Theme** - Complements the color scheme
-- **Bracket Pair Colorizer** - Enhanced bracket highlighting
-- **GitLens** - Git integration with theme-aware colors
-- **Error Lens** - Inline error highlighting
-- **Rainbow CSV** - CSV file highlighting
+Dream Purple funciona bien con extensiones populares de VS Code:
+- **Material Icon Theme** - Complementa el esquema de colores
+- **Bracket Pair Colorizer** - Resaltado mejorado de corchetes
+- **GitLens** - Integración Git con colores conscientes del tema
+- **Error Lens** - Resaltado de errores en línea
+- **Rainbow CSV** - Resaltado de archivos CSV
 
-## 🎯 Language Support
+## 🎯 Soporte de Lenguajes
 
-Dream Purple provides optimized syntax highlighting for:
+Dream Purple proporciona resaltado de sintaxis optimizado para:
 
-- **JavaScript/TypeScript**: Enhanced highlighting for modern JS/TS features
-- **HTML**: Clear distinction between tags, attributes, and content
-- **CSS/SCSS**: Beautiful styling for selectors, properties, and values
-- **JSON**: Clean formatting for configuration files
-- **Markdown**: Readable documentation with proper heading hierarchy
-- **Python**: Clear syntax highlighting for Python development
-- **And many more languages supported by VS Code**
+- **JavaScript/TypeScript**: Resaltado mejorado para características modernas de JS/TS
+- **HTML**: Clara distinción entre etiquetas, atributos y contenido
+- **CSS/SCSS**: Hermoso estilizado para selectores, propiedades y valores
+- **JSON**: Formato limpio para archivos de configuración
+- **Markdown**: Documentación legible con jerarquía adecuada de encabezados
+- **Python**: Resaltado claro de sintaxis para desarrollo Python
+- **Y muchos más lenguajes soportados por VS Code**
 
-## 🎨 Color Palette
+## 🎨 Paleta de Colores
 
-### Base Colors
-- **Primary Background**: `#1a0d26` - Deep purple for main editor
-- **Secondary Background**: `#2d1b3d` - Medium purple for sidebars
-- **Accent Background**: `#4a2c5a` - Light purple for UI elements
-- **Primary Orange**: `#ff6b35` - Vibrant orange for highlights
-- **Secondary Orange**: `#ff8c42` - Soft orange for accents
-- **Text Primary**: `#f4f1f4` - Warm white for main text
-- **Text Secondary**: `#8b7a9b` - Purple-gray for secondary text
+### Colores Base
+- **Fondo Principal**: `#1a0d26` - Púrpura profundo para el editor principal
+- **Fondo Secundario**: `#2d1b3d` - Púrpura medio para barras laterales
+- **Fondo de Acento**: `#4a2c5a` - Púrpura claro para elementos de UI
+- **Naranja Primario**: `#ff6b35` - Naranja vibrante para resaltados
+- **Naranja Secundario**: `#ff8c42` - Naranja suave para acentos
+- **Texto Principal**: `#f4f1f4` - Blanco cálido para texto principal
+- **Texto Secundario**: `#8b7a9b` - Gris púrpura para texto secundario
 
-### Syntax Colors
-- **Keywords**: `#ff6b35` (Orange) - `if`, `function`, `class`, etc.
-- **Strings**: `#64ffda` (Mint Green) - Text content and literals
-- **Comments**: `#8b7a9b` (Purple Gray) - Code comments
-- **Functions**: `#82b1ff` (Light Blue) - Function names and calls
-- **Numbers**: `#ff8c42` (Soft Orange) - Numeric values
-- **Types**: `#c792ea` (Light Purple) - Classes and type definitions
+### Colores de Sintaxis
+- **Palabras Clave**: `#ff6b35` (Naranja) - `if`, `function`, `class`, etc.
+- **Cadenas**: `#64ffda` (Verde Menta) - Contenido de texto y literales
+- **Comentarios**: `#8b7a9b` (Gris Púrpura) - Comentarios de código
+- **Funciones**: `#82b1ff` (Azul Claro) - Nombres y llamadas de funciones
+- **Números**: `#ff8c42` (Naranja Suave) - Valores numéricos
+- **Tipos**: `#c792ea` (Púrpura Claro) - Clases y definiciones de tipos
 
-> 📋 **Detailed Color Documentation**: For a comprehensive color palette guide including accessibility information, design decisions, and customization examples, see [COLOR_PALETTE.md](./COLOR_PALETTE.md).
+> 📋 **Documentación Detallada de Colores**: Para una guía completa de la paleta de colores incluyendo información de accesibilidad, decisiones de diseño y ejemplos de personalización, consulta [COLOR_PALETTE.md](./COLOR_PALETTE.md).
 
-## ⚙️ Customization
+## ⚙️ Personalización
 
-You can customize the theme by adding these settings to your VS Code `settings.json`:
+Puedes personalizar el tema agregando estas configuraciones a tu `settings.json` de VS Code:
 
 ```json
 {
@@ -178,62 +177,81 @@ You can customize the theme by adding these settings to your VS Code `settings.j
 }
 ```
 
-## 🔧 Troubleshooting
+## 🔧 Solución de Problemas
 
-### Theme Not Applying
-- **Restart VS Code** after installation
-- Check that "Dream Purple" is selected in **File > Preferences > Color Theme**
-- Verify the extension is enabled in the Extensions view
+### El Tema No Se Aplica
+- **Reinicia VS Code** después de la instalación
+- Verifica que "Dream Purple" esté seleccionado en **Archivo > Preferencias > Tema de Color**
+- Confirma que la extensión esté habilitada en la vista de Extensiones
 
-### Colors Look Different
-- Ensure your monitor color profile is set correctly
-- Check VS Code's **window.autoDetectColorScheme** setting
-- Verify no other extensions are overriding theme colors
+### Los Colores Se Ven Diferentes
+- Asegúrate de que el perfil de color de tu monitor esté configurado correctamente
+- Verifica la configuración **window.autoDetectColorScheme** de VS Code
+- Confirma que no hay otras extensiones sobrescribiendo los colores del tema
 
-### Syntax Highlighting Issues
-- Make sure file associations are correct for your language
-- Check if language-specific extensions are installed and enabled
-- Try reloading the window: **Developer > Reload Window**
+### Problemas de Resaltado de Sintaxis
+- Asegúrate de que las asociaciones de archivos sean correctas para tu lenguaje
+- Verifica si las extensiones específicas del lenguaje están instaladas y habilitadas
+- Intenta recargar la ventana: **Desarrollador > Recargar Ventana**
 
-### Performance Issues
-- The theme itself doesn't affect performance
-- Check for conflicting extensions that might modify colors
-- Disable other theme-related extensions temporarily
+### Problemas de Rendimiento
+- El tema en sí no afecta el rendimiento
+- Verifica extensiones conflictivas que puedan modificar colores
+- Deshabilita temporalmente otras extensiones relacionadas con temas
 
-## 🐛 Issues & Feedback
+## 🐛 Problemas y Comentarios
 
-### Reporting Issues
-Found a bug or have a suggestion? We'd love to hear from you!
+### Reportar Problemas
+¿Encontraste un error o tienes una sugerencia? ¡Nos encantaría escucharte!
 
-1. **Check Existing Issues**: Browse [open issues](https://github.com/your-username/dream-purple-theme/issues) first
-2. **Create New Issue**: Use our issue templates for:
-   - 🐛 Bug reports
-   - 💡 Feature requests  
-   - 🎨 Color suggestions
-   - 📚 Documentation improvements
+1. **Revisar Problemas Existentes**: Navega primero por los [problemas abiertos](https://github.com/holasoymalva/dream-purple-theme/issues)
+2. **Crear Nuevo Problema**: Usa nuestras plantillas de problemas para:
+   - 🐛 Reportes de errores
+   - 💡 Solicitudes de características  
+   - 🎨 Sugerencias de colores
+   - 📚 Mejoras de documentación
 
-### Contributing
-We welcome contributions! See our [Contributing Guide](./CONTRIBUTING.md) for:
-- Code style guidelines
-- Development setup
-- Pull request process
-- Color modification guidelines
+### Contribuir
+¡Damos la bienvenida a las contribuciones! Consulta nuestra [Guía de Contribución](./CONTRIBUTING.md) para:
+- Pautas de estilo de código
+- Configuración de desarrollo
+- Proceso de pull request
+- Pautas de modificación de colores
 
-### Community
-- **GitHub Discussions**: Share screenshots and customizations
-- **Twitter**: Tag us [@DreamPurpleTheme](https://twitter.com/DreamPurpleTheme) 
-- **VS Code Marketplace**: Leave a review and rating
+### Comunidad
+- **GitHub Discussions**: Comparte capturas de pantalla y personalizaciones
+- **Creador**: Sígueme en [@holasoymalva](https://github.com/holasoymalva) para más proyectos
+- **VS Code Marketplace**: Deja una reseña y calificación
 
-## 📝 License
+## 📝 Licencia
 
-This theme is licensed under the [MIT License](LICENSE).
+Este tema está licenciado bajo la [Licencia MIT](LICENSE).
 
-## 🙏 Acknowledgments
+## 🙏 Reconocimientos
 
-- Inspired by the Acid Purple Orange color scheme
-- Built with love for the VS Code community
-- Thanks to all contributors and users who provide feedback
+- Inspirado en el esquema de colores Acid Purple Orange
+- Construido con amor para la comunidad de VS Code
+- Gracias a todos los contribuidores y usuarios que proporcionan comentarios
 
 ---
 
-**Enjoy coding with Dream Purple! 💜🧡**
+**¡Disfruta programando con Dream Purple! 💜🧡**
+
+## 📸 Capturas de Pantalla Pendientes
+
+Para completar la documentación, necesitamos agregar las siguientes capturas:
+
+### Capturas Requeridas:
+1. **Vista completa de la interfaz** - Mostrando el tema aplicado en toda la UI de VS Code
+2. **Código JavaScript/TypeScript** - Demostrando el resaltado de sintaxis moderno
+3. **Código HTML/CSS** - Mostrando el desarrollo web con el tema
+4. **Múltiples lenguajes** - Vista dividida con diferentes tipos de archivos
+5. **Terminal integrado** - Mostrando los colores ANSI personalizados
+
+### Especificaciones Técnicas:
+- **Resolución**: Mínimo 1920x1080, preferiblemente 2560x1440
+- **Formato**: PNG con soporte de transparencia
+- **Fuente**: Usar Fira Code, JetBrains Mono o similar
+- **Zoom**: 100% o 110% para legibilidad
+
+> Una vez que se agreguen las capturas, actualizar la sección de Vista Previa para mostrar las imágenes reales.

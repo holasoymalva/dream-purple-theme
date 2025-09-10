@@ -4,6 +4,7 @@
   "description": "A beautiful dark theme featuring deep purple backgrounds with vibrant orange accents, inspired by Acid Purple Orange. Perfect for comfortable coding sessions with excellent syntax highlighting.",
   "version": "1.0.0",
   "publisher": "holasoymalva",
+  "icon": "dream-purple.png",
   "engines": {
     "vscode": "^1.74.0"
   },
