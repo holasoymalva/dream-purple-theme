@@ -1,0 +1,9 @@
+{
+  "name": "Dream Purple",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1a0d26",
+    "editor.foreground": "#f4f1f4"
+  },
+  "tokenColors": []
+}

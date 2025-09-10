@@ -1,0 +1,38 @@
+{
+  "name": "dream-purple-theme",
+  "displayName": "Dream Purple",
+  "description": "A beautiful purple theme with orange accents inspired by Acid Purple Orange",
+  "version": "1.0.0",
+  "publisher": "dream-purple-publisher",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "purple",
+    "orange",
+    "dark",
+    "color-theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dream Purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dream-purple-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/dream-purple-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/dream-purple-theme/issues"
+  },
+  "homepage": "https://github.com/your-username/dream-purple-theme#readme",
+  "license": "MIT"
+}
