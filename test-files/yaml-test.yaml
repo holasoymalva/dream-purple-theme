@@ -1,0 +1,293 @@
+# YAML Semantic Highlighting Test for Dream Purple Theme
+---
+# Document metadata
+title: "Dream Purple Theme Configuration"
+version: "1.0.0"
+description: |
+  This YAML file tests the semantic highlighting capabilities
+  of the Dream Purple VS Code theme with various YAML constructs.
+author:
+  name: "Dream Purple Developer"
+  email: "developer@dreampurple.com"
+  github: "https://github.com/dreampurple"
+
+# Theme configuration
+theme:
+  name: "Dream Purple"
+  type: "dark"
+  colors:
+    primary: "#ff6b35"      # Orange accent
+    secondary: "#c792ea"    # Purple accent
+    background: "#1a0d26"   # Dark purple background
+    surface: "#2d1b3d"      # Medium purple surface
+    text: "#f4f1f4"         # Light text
+    textSecondary: "#8b7a9b" # Muted text
+    
+  # Syntax highlighting colors
+  syntax:
+    keywords: "#ff6b35"
+    strings: "#64ffda"
+    comments: "#8b7a9b"
+    functions: "#82b1ff"
+    variables: "#f4f1f4"
+    numbers: "#ff8c42"
+    types: "#c792ea"
+
+# VS Code extension configuration
+vscode:
+  engine: "^1.74.0"
+  categories:
+    - "Themes"
+    - "Other"
+  
+  # Extension capabilities
+  capabilities:
+    virtualWorkspaces: true
+    untrustedWorkspaces:
+      supported: true
+      description: "Theme works in untrusted workspaces"
+  
+  # Activation events
+  activationEvents:
+    - "*"
+  
+  # Extension kind
+  extensionKind:
+    - "ui"
+    - "workspace"
+
+# Package configuration
+package:
+  name: "dream-purple-theme"
+  displayName: "Dream Purple"
+  publisher: "dreampurple"
+  license: "MIT"
+  
+  # Scripts for development
+  scripts:
+    build: "vsce package"
+    publish: "vsce publish"
+    test: "npm run test:syntax && npm run test:accessibility"
+    "test:syntax": "node scripts/test-syntax.js"
+    "test:accessibility": "node scripts/test-accessibility.js"
+
+# Development dependencies
+devDependencies:
+  - name: "vsce"
+    version: "^2.15.0"
+    description: "Visual Studio Code Extension manager"
+  
+  - name: "@types/vscode"
+    version: "^1.74.0"
+    description: "VS Code API type definitions"
+  
+  - name: "typescript"
+    version: "^5.2.2"
+    description: "TypeScript compiler"
+
+# Test configuration
+testing:
+  # Syntax highlighting tests
+  syntaxTests:
+    languages:
+      - javascript
+      - typescript
+      - python
+      - html
+      - css
+      - json
+      - yaml
+      - markdown
+      - xml
+      - sql
+    
+    features:
+      - keywords
+      - strings
+      - comments
+      - functions
+      - variables
+      - numbers
+      - operators
+      - punctuation
+  
+  # Accessibility tests
+  accessibilityTests:
+    contrastRatios:
+      normalText: 4.5
+      largeText: 3.0
+      uiComponents: 3.0
+    
+    colorBlindness:
+      - protanopia
+      - deuteranopia
+      - tritanopia
+    
+    # WCAG compliance levels
+    wcagLevel: "AA"
+
+# Build configuration
+build:
+  # Files to include in package
+  include:
+    - "themes/**/*"
+    - "README.md"
+    - "CHANGELOG.md"
+    - "LICENSE"
+    - "package.json"
+  
+  # Files to exclude
+  exclude:
+    - "test-files/**/*"
+    - "scripts/**/*"
+    - "*.test.js"
+    - ".git/**/*"
+    - "node_modules/**/*"
+  
+  # Output configuration
+  output:
+    directory: "./dist"
+    filename: "dream-purple-theme.vsix"
+
+# Marketplace configuration
+marketplace:
+  # Gallery banner
+  galleryBanner:
+    color: "#1a0d26"
+    theme: "dark"
+  
+  # Categories and tags
+  categories:
+    - "Themes"
+  
+  tags:
+    - "purple"
+    - "orange"
+    - "dark"
+    - "semantic"
+    - "highlighting"
+    - "modern"
+  
+  # Pricing and licensing
+  pricing: "Free"
+  license: "MIT"
+  
+  # Quality assurance
+  qna: "marketplace"
+  
+  # Badges
+  badges:
+    - url: "https://img.shields.io/badge/VS%20Code-Theme-blue"
+      href: "https://marketplace.visualstudio.com/items?itemName=dreampurple.theme"
+      description: "VS Code Theme"
+
+# Localization support
+localization:
+  defaultLanguage: "en"
+  supportedLanguages:
+    - code: "en"
+      name: "English"
+      file: "package.nls.json"
+    
+    - code: "es"
+      name: "Español"
+      file: "package.nls.es.json"
+    
+    - code: "fr"
+      name: "Français"
+      file: "package.nls.fr.json"
+
+# Advanced YAML features
+advancedFeatures:
+  # Anchors and aliases
+  defaultColors: &defaultColors
+    background: "#1a0d26"
+    foreground: "#f4f1f4"
+  
+  # Merge keys
+  editorColors:
+    <<: *defaultColors
+    selection: "#4a2c5a"
+    lineHighlight: "#2d1b3d"
+  
+  terminalColors:
+    <<: *defaultColors
+    cursor: "#ff6b35"
+    selection: "#c792ea"
+
+# Multi-line strings
+documentation: |
+  Dream Purple Theme Documentation
+  
+  This theme provides a beautiful purple and orange color scheme
+  for Visual Studio Code. It includes:
+  
+  - Comprehensive syntax highlighting
+  - Modern semantic token support
+  - Accessible color contrast ratios
+  - Support for popular extensions
+
+# Folded strings
+shortDescription: >
+  A beautiful VS Code theme with purple backgrounds
+  and orange accents, optimized for readability
+  and modern development workflows.
+
+# Complex data structures
+themeVariants:
+  - name: "Dream Purple"
+    id: "dream-purple"
+    type: "dark"
+    colors: *defaultColors
+    
+  - name: "Dream Purple Light"
+    id: "dream-purple-light"
+    type: "light"
+    colors:
+      background: "#f4f1f4"
+      foreground: "#1a0d26"
+
+# Boolean and null values
+features:
+  semanticHighlighting: true
+  iconTheming: false
+  bracketPairColorization: true
+  customTitleBar: null
+  
+# Numbers in various formats
+statistics:
+  downloads: 1000
+  rating: 4.8
+  version: 1.0
+  fileSize: 25.6  # KB
+  
+# Date and timestamp
+releaseInfo:
+  firstRelease: 2024-01-01
+  lastUpdate: 2024-01-15T10:30:00Z
+  
+# Environment-specific configuration
+environments:
+  development:
+    debug: true
+    logLevel: "verbose"
+    
+  production:
+    debug: false
+    logLevel: "error"
+    
+  testing:
+    debug: true
+    logLevel: "info"
+    mockData: true
+
+---
+# Second document in the same file
+documentType: "changelog"
+entries:
+  - version: "1.0.0"
+    date: "2024-01-01"
+    changes:
+      - "Initial release"
+      - "Complete syntax highlighting"
+      - "Semantic token support"
