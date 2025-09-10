@@ -2,8 +2,38 @@
   "name": "Dream Purple",
   "type": "dark",
   "colors": {
+    // Base editor colors
     "editor.background": "#1a0d26",
-    "editor.foreground": "#f4f1f4"
+    "editor.foreground": "#f4f1f4",
+    "editor.selectionBackground": "#2d1b3d80",
+    "editor.selectionHighlightBackground": "#2d1b3d60",
+    "editor.lineHighlightBackground": "#2d1b3d40",
+    "editorCursor.foreground": "#ff6b35",
+    "editorWhitespace.foreground": "#8b7a9b40",
+    
+    // Activity Bar colors
+    "activityBar.background": "#1a0d26",
+    "activityBar.foreground": "#ff6b35",
+    "activityBar.inactiveForeground": "#8b7a9b",
+    "activityBar.border": "#2d1b3d",
+    "activityBarBadge.background": "#ff6b35",
+    "activityBarBadge.foreground": "#1a0d26",
+    
+    // Sidebar colors
+    "sideBar.background": "#2d1b3d",
+    "sideBar.foreground": "#f4f1f4",
+    "sideBar.border": "#4a2c5a",
+    "sideBarTitle.foreground": "#ff6b35",
+    "sideBarSectionHeader.background": "#1a0d26",
+    "sideBarSectionHeader.foreground": "#ff8c42",
+    
+    // Status Bar colors
+    "statusBar.background": "#1a0d26",
+    "statusBar.foreground": "#f4f1f4",
+    "statusBar.border": "#2d1b3d",
+    "statusBarItem.hoverBackground": "#2d1b3d",
+    "statusBarItem.prominentBackground": "#ff6b35",
+    "statusBarItem.prominentForeground": "#1a0d26"
   },
   "tokenColors": []
 }
