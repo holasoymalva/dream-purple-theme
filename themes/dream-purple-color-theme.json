@@ -2,7 +2,6 @@
   "name": "Dream Purple",
   "type": "dark",
   "colors": {
-    // Base editor colors
     "editor.background": "#1a0d26",
     "editor.foreground": "#f4f1f4",
     "editor.selectionBackground": "#2d1b3d80",
@@ -10,32 +9,24 @@
     "editor.lineHighlightBackground": "#2d1b3d40",
     "editorCursor.foreground": "#ff6b35",
     "editorWhitespace.foreground": "#8b7a9b40",
-    
-    // Activity Bar colors
     "activityBar.background": "#1a0d26",
     "activityBar.foreground": "#ff6b35",
     "activityBar.inactiveForeground": "#8b7a9b",
     "activityBar.border": "#2d1b3d",
     "activityBarBadge.background": "#ff6b35",
     "activityBarBadge.foreground": "#1a0d26",
-    
-    // Sidebar colors
     "sideBar.background": "#2d1b3d",
     "sideBar.foreground": "#f4f1f4",
     "sideBar.border": "#4a2c5a",
     "sideBarTitle.foreground": "#ff6b35",
     "sideBarSectionHeader.background": "#1a0d26",
     "sideBarSectionHeader.foreground": "#ff8c42",
-    
-    // Status Bar colors
     "statusBar.background": "#1a0d26",
     "statusBar.foreground": "#f4f1f4",
     "statusBar.border": "#2d1b3d",
     "statusBarItem.hoverBackground": "#2d1b3d",
     "statusBarItem.prominentBackground": "#ff6b35",
     "statusBarItem.prominentForeground": "#1a0d26",
-    
-    // Tab colors and active/inactive states
     "tab.activeBackground": "#1a0d26",
     "tab.activeForeground": "#f4f1f4",
     "tab.activeBorder": "#ff6b35",
@@ -51,8 +42,6 @@
     "tab.unfocusedActiveBorder": "#4a2c5a",
     "tab.unfocusedInactiveBackground": "#2d1b3d",
     "tab.unfocusedInactiveForeground": "#8b7a9b60",
-    
-    // Terminal panel colors and integrated terminal styling
     "terminal.background": "#1a0d26",
     "terminal.foreground": "#f4f1f4",
     "terminal.ansiBlack": "#1a0d26",
@@ -75,16 +64,12 @@
     "terminal.border": "#4a2c5a",
     "terminalCursor.background": "#1a0d26",
     "terminalCursor.foreground": "#ff6b35",
-    
-    // Panel colors
     "panel.background": "#1a0d26",
     "panel.border": "#4a2c5a",
     "panelTitle.activeBorder": "#ff6b35",
     "panelTitle.activeForeground": "#f4f1f4",
     "panelTitle.inactiveForeground": "#8b7a9b",
     "panelInput.border": "#4a2c5a",
-    
-    // Input field colors and dropdown styling
     "input.background": "#2d1b3d",
     "input.foreground": "#f4f1f4",
     "input.border": "#4a2c5a",
@@ -101,14 +86,10 @@
     "inputValidation.warningBackground": "#ff8c4220",
     "inputValidation.warningBorder": "#ff8c42",
     "inputValidation.warningForeground": "#ff8c42",
-    
-    // Dropdown styling
     "dropdown.background": "#2d1b3d",
     "dropdown.foreground": "#f4f1f4",
     "dropdown.border": "#4a2c5a",
     "dropdown.listBackground": "#2d1b3d",
-    
-    // Button styling
     "button.background": "#ff6b35",
     "button.foreground": "#1a0d26",
     "button.hoverBackground": "#ff8c42",
@@ -116,8 +97,6 @@
     "button.secondaryBackground": "#4a2c5a",
     "button.secondaryForeground": "#f4f1f4",
     "button.secondaryHoverBackground": "#6b4c7a",
-    
-    // Notification and tooltip colors
     "notifications.background": "#2d1b3d",
     "notifications.foreground": "#f4f1f4",
     "notifications.border": "#4a2c5a",
@@ -128,19 +107,13 @@
     "notificationsErrorIcon.foreground": "#ff6b6b",
     "notificationsWarningIcon.foreground": "#ff8c42",
     "notificationsInfoIcon.foreground": "#82b1ff",
-    
-    // Tooltip colors
     "editorHoverWidget.background": "#2d1b3d",
     "editorHoverWidget.foreground": "#f4f1f4",
     "editorHoverWidget.border": "#4a2c5a",
     "editorHoverWidget.statusBarBackground": "#1a0d26",
-    
-    // Additional interactive elements
     "badge.background": "#ff6b35",
     "badge.foreground": "#1a0d26",
     "progressBar.background": "#ff6b35",
-    
-    // List and tree styling for better UI consistency
     "list.activeSelectionBackground": "#ff6b3530",
     "list.activeSelectionForeground": "#f4f1f4",
     "list.inactiveSelectionBackground": "#4a2c5a30",
@@ -153,21 +126,13 @@
     "listFilterWidget.background": "#2d1b3d",
     "listFilterWidget.outline": "#ff6b35",
     "listFilterWidget.noMatchesOutline": "#ff6b6b",
-    
-    // Tree styling
     "tree.indentGuidesStroke": "#4a2c5a",
     "tree.tableColumnsBorder": "#4a2c5a",
-    
-    // Interactive state colors - Hover states for buttons and interactive elements
-    "button.hoverBackground": "#ff8c42",
-    "button.secondaryHoverBackground": "#6b4c7a",
     "checkbox.background": "#2d1b3d",
     "checkbox.foreground": "#f4f1f4",
     "checkbox.border": "#4a2c5a",
     "checkbox.selectBackground": "#ff6b35",
     "checkbox.selectBorder": "#ff6b35",
-    
-    // Focus ring colors and selection highlighting
     "focusBorder": "#ff6b35",
     "selection.background": "#ff6b3540",
     "widget.shadow": "#1a0d2680",
@@ -177,8 +142,6 @@
     "editorWidget.resizeBorder": "#ff6b35",
     "pickerGroup.border": "#4a2c5a",
     "pickerGroup.foreground": "#ff8c42",
-    
-    // Error, warning, and info color definitions
     "errorForeground": "#ff6b6b",
     "warningForeground": "#ff8c42",
     "infoForeground": "#82b1ff",
@@ -189,16 +152,12 @@
     "problemsErrorIcon.foreground": "#ff6b6b",
     "problemsWarningIcon.foreground": "#ff8c42",
     "problemsInfoIcon.foreground": "#82b1ff",
-    
-    // Enhanced list selection and hover colors
     "list.dropBackground": "#ff6b3540",
     "list.errorForeground": "#ff6b6b",
     "list.warningForeground": "#ff8c42",
     "list.deemphasizedForeground": "#8b7a9b",
     "list.filterMatchBackground": "#ff6b3540",
     "list.filterMatchBorder": "#ff6b35",
-    
-    // Menu and context menu colors
     "menu.background": "#2d1b3d",
     "menu.foreground": "#f4f1f4",
     "menu.selectionBackground": "#ff6b3530",
@@ -209,21 +168,15 @@
     "menubar.selectionBackground": "#ff6b3530",
     "menubar.selectionForeground": "#f4f1f4",
     "menubar.selectionBorder": "#ff6b35",
-    
-    // Quick input and command palette
     "quickInput.background": "#2d1b3d",
     "quickInput.foreground": "#f4f1f4",
     "quickInputList.focusBackground": "#ff6b3530",
     "quickInputList.focusForeground": "#f4f1f4",
     "quickInputTitle.background": "#1a0d26",
-    
-    // Scrollbar colors for better interactivity
     "scrollbar.shadow": "#1a0d2680",
     "scrollbarSlider.background": "#4a2c5a60",
     "scrollbarSlider.hoverBackground": "#4a2c5a80",
     "scrollbarSlider.activeBackground": "#ff6b3580",
-    
-    // Editor gutter and line number hover states
     "editorLineNumber.foreground": "#8b7a9b",
     "editorLineNumber.activeForeground": "#ff6b35",
     "editorGutter.background": "#1a0d26",
@@ -231,22 +184,16 @@
     "editorGutter.addedBackground": "#64ffda",
     "editorGutter.deletedBackground": "#ff6b6b",
     "editorGutter.foldingControlForeground": "#8b7a9b",
-    
-    // Breadcrumb navigation
     "breadcrumb.background": "#1a0d26",
     "breadcrumb.foreground": "#8b7a9b",
     "breadcrumb.focusForeground": "#f4f1f4",
     "breadcrumb.activeSelectionForeground": "#ff6b35",
     "breadcrumbPicker.background": "#2d1b3d",
-    
-    // Title bar (for when VS Code controls the title bar)
     "titleBar.activeBackground": "#1a0d26",
     "titleBar.activeForeground": "#f4f1f4",
     "titleBar.inactiveBackground": "#2d1b3d",
     "titleBar.inactiveForeground": "#8b7a9b",
     "titleBar.border": "#4a2c5a",
-    
-    // Editor overview ruler (minimap area)
     "editorOverviewRuler.border": "#4a2c5a",
     "editorOverviewRuler.errorForeground": "#ff6b6b",
     "editorOverviewRuler.warningForeground": "#ff8c42",
@@ -254,8 +201,6 @@
     "editorOverviewRuler.bracketMatchForeground": "#ff6b35",
     "editorOverviewRuler.findMatchForeground": "#ff8c42",
     "editorOverviewRuler.selectionHighlightForeground": "#ff6b3560",
-    
-    // Peek view colors for better interactivity
     "peekView.border": "#ff6b35",
     "peekViewEditor.background": "#2d1b3d",
     "peekViewEditor.matchHighlightBackground": "#ff6b3540",
@@ -268,20 +213,14 @@
     "peekViewTitle.background": "#1a0d26",
     "peekViewTitleDescription.foreground": "#8b7a9b",
     "peekViewTitleLabel.foreground": "#ff6b35",
-    
-    // Additional interactive elements for comprehensive coverage
     "keybindingLabel.background": "#2d1b3d",
     "keybindingLabel.foreground": "#f4f1f4",
     "keybindingLabel.border": "#4a2c5a",
     "keybindingLabel.bottomBorder": "#ff6b35",
-    
-    // Welcome page and walkthrough colors
     "welcomePage.background": "#1a0d26",
     "welcomePage.buttonBackground": "#ff6b35",
     "welcomePage.buttonHoverBackground": "#ff8c42",
     "walkThrough.embeddedEditorBackground": "#2d1b3d",
-    
-    // Git decoration colors for interactive states
     "gitDecoration.addedResourceForeground": "#64ffda",
     "gitDecoration.modifiedResourceForeground": "#ff8c42",
     "gitDecoration.deletedResourceForeground": "#ff6b6b",
@@ -289,8 +228,6 @@
     "gitDecoration.ignoredResourceForeground": "#8b7a9b",
     "gitDecoration.conflictingResourceForeground": "#ff6b35",
     "gitDecoration.submoduleResourceForeground": "#82b1ff",
-    
-    // Merge conflict colors
     "merge.currentHeaderBackground": "#64ffda40",
     "merge.currentContentBackground": "#64ffda20",
     "merge.incomingHeaderBackground": "#82b1ff40",
@@ -298,17 +235,14 @@
     "merge.border": "#4a2c5a",
     "merge.commonContentBackground": "#8b7a9b20",
     "merge.commonHeaderBackground": "#8b7a9b40",
-    
-    // Diff editor colors for interactive comparison
     "diffEditor.insertedTextBackground": "#64ffda20",
     "diffEditor.removedTextBackground": "#ff6b6b20",
     "diffEditor.insertedLineBackground": "#64ffda10",
     "diffEditor.removedLineBackground": "#ff6b6b10",
     "diffEditor.diagonalFill": "#8b7a9b40"
   },
-  "tokenColors": [
-    // Comments
-    {
+  "tokenColors": [   
+ {
       "name": "Comment",
       "scope": [
         "comment",
@@ -319,8 +253,6 @@
         "foreground": "#8b7a9b"
       }
     },
-    
-    // Keywords
     {
       "name": "Keyword",
       "scope": [
@@ -337,8 +269,6 @@
         "foreground": "#ff6b35"
       }
     },
-    
-    // Strings
     {
       "name": "String",
       "scope": [
@@ -351,8 +281,6 @@
         "foreground": "#64ffda"
       }
     },
-    
-    // String escape characters
     {
       "name": "String Escape",
       "scope": [
@@ -363,8 +291,6 @@
         "foreground": "#ff8c42"
       }
     },
-    
-    // Numbers
     {
       "name": "Number",
       "scope": [
@@ -377,8 +303,6 @@
         "foreground": "#ff8c42"
       }
     },
-    
-    // Functions
     {
       "name": "Function",
       "scope": [
@@ -391,8 +315,6 @@
         "foreground": "#82b1ff"
       }
     },
-    
-    // Function parameters
     {
       "name": "Function Parameters",
       "scope": [
@@ -404,8 +326,6 @@
         "fontStyle": "italic"
       }
     },
-    
-    // Classes and Types
     {
       "name": "Class",
       "scope": [
@@ -419,8 +339,6 @@
         "foreground": "#c792ea"
       }
     },
-    
-    // Variables
     {
       "name": "Variable",
       "scope": [
@@ -431,8 +349,6 @@
         "foreground": "#f4f1f4"
       }
     },
-    
-    // Object properties
     {
       "name": "Object Property",
       "scope": [
@@ -444,8 +360,6 @@
         "foreground": "#82b1ff"
       }
     },
-    
-    // Operators
     {
       "name": "Operator",
       "scope": [
@@ -459,8 +373,6 @@
         "foreground": "#ff6b35"
       }
     },
-    
-    // Punctuation
     {
       "name": "Punctuation",
       "scope": [
@@ -473,8 +385,6 @@
         "foreground": "#8b7a9b"
       }
     },
-    
-    // Brackets and Braces
     {
       "name": "Brackets",
       "scope": [
@@ -487,8 +397,6 @@
         "foreground": "#ff8c42"
       }
     },
-    
-    // JavaScript/TypeScript specific
     {
       "name": "JS/TS Import/Export",
       "scope": [
@@ -501,7 +409,6 @@
         "foreground": "#ff6b35"
       }
     },
-    
     {
       "name": "JS/TS This",
       "scope": [
@@ -513,7 +420,6 @@
         "fontStyle": "italic"
       }
     },
-    
     {
       "name": "JS/TS Template Literals",
       "scope": [
@@ -524,8 +430,6 @@
         "foreground": "#ff8c42"
       }
     },
-    
-    // TypeScript specific
     {
       "name": "TypeScript Types",
       "scope": [
@@ -538,7 +442,6 @@
         "foreground": "#c792ea"
       }
     },
-    
     {
       "name": "TypeScript Interface",
       "scope": [
@@ -549,8 +452,6 @@
         "foreground": "#82b1ff"
       }
     },
-    
-    // HTML specific
     {
       "name": "HTML Tag",
       "scope": [
@@ -561,7 +462,6 @@
         "foreground": "#ff6b35"
       }
     },
-    
     {
       "name": "HTML Attribute",
       "scope": [
@@ -572,7 +472,6 @@
         "foreground": "#82b1ff"
       }
     },
-    
     {
       "name": "HTML Attribute Value",
       "scope": [
@@ -583,7 +482,6 @@
         "foreground": "#64ffda"
       }
     },
-    
     {
       "name": "HTML Doctype",
       "scope": [
@@ -594,8 +492,6 @@
         "foreground": "#8b7a9b"
       }
     },
-    
-    // CSS specific
     {
       "name": "CSS Property",
       "scope": [
@@ -606,7 +502,6 @@
         "foreground": "#82b1ff"
       }
     },
-    
     {
       "name": "CSS Property Value",
       "scope": [
@@ -617,7 +512,6 @@
         "foreground": "#64ffda"
       }
     },
-    
     {
       "name": "CSS Selector",
       "scope": [
@@ -629,7 +523,6 @@
         "foreground": "#ff6b35"
       }
     },
-    
     {
       "name": "CSS Units",
       "scope": [
@@ -639,7 +532,6 @@
         "foreground": "#ff8c42"
       }
     },
-    
     {
       "name": "CSS Pseudo Classes",
       "scope": [
@@ -650,8 +542,6 @@
         "foreground": "#c792ea"
       }
     },
-    
-    // JSON specific
     {
       "name": "JSON Key",
       "scope": [
@@ -662,7 +552,6 @@
         "foreground": "#82b1ff"
       }
     },
-    
     {
       "name": "JSON String",
       "scope": [
@@ -672,7 +561,6 @@
         "foreground": "#64ffda"
       }
     },
-    
     {
       "name": "JSON Number",
       "scope": [
@@ -682,7 +570,6 @@
         "foreground": "#ff8c42"
       }
     },
-    
     {
       "name": "JSON Boolean/Null",
       "scope": [
@@ -692,8 +579,6 @@
         "foreground": "#c792ea"
       }
     },
-    
-    // Markdown specific
     {
       "name": "Markdown Heading",
       "scope": [
@@ -705,7 +590,6 @@
         "fontStyle": "bold"
       }
     },
-    
     {
       "name": "Markdown Bold",
       "scope": [
@@ -716,7 +600,6 @@
         "fontStyle": "bold"
       }
     },
-    
     {
       "name": "Markdown Italic",
       "scope": [
@@ -727,7 +610,6 @@
         "fontStyle": "italic"
       }
     },
-    
     {
       "name": "Markdown Code",
       "scope": [
@@ -738,7 +620,6 @@
         "foreground": "#64ffda"
       }
     },
-    
     {
       "name": "Markdown Link",
       "scope": [
@@ -748,5 +629,134 @@
         "foreground": "#82b1ff"
       }
     }
-  ]
+  ],
+  "semanticTokenColors": {
+    "namespace": "#c792ea",
+    "module": "#c792ea",
+    "class": "#c792ea",
+    "interface": "#82b1ff",
+    "struct": "#c792ea",
+    "enum": "#c792ea",
+    "enumMember": "#ff8c42",
+    "type": "#c792ea",
+    "typeParameter": "#c792ea",
+    "function": "#82b1ff",
+    "method": "#82b1ff",
+    "function.declaration": "#82b1ff",
+    "method.declaration": "#82b1ff",
+    "function.defaultLibrary": "#64ffda",
+    "method.defaultLibrary": "#64ffda",
+    "variable": "#f4f1f4",
+    "variable.readonly": "#c792ea",
+    "variable.defaultLibrary": "#64ffda",
+    "parameter": {
+      "foreground": "#f4f1f4",
+      "fontStyle": "italic"
+    },
+    "property": "#82b1ff",
+    "property.readonly": "#c792ea",
+    "property.declaration": "#82b1ff",
+    "property.defaultLibrary": "#64ffda",
+    "event": "#ff6b35",
+    "macro": "#ff6b35",
+    "label": "#ff6b35",
+    "keyword": "#ff6b35",
+    "comment": "#8b7a9b",
+    "comment.documentation": {
+      "foreground": "#8b7a9b",
+      "fontStyle": "italic"
+    },
+    "string": "#64ffda",
+    "number": "#ff8c42",
+    "regexp": "#ff8c42",
+    "operator": "#ff6b35",
+    "decorator": "#ff6b35",
+    "annotation": "#ff6b35",
+    "*.declaration": {
+      "fontStyle": "bold"
+    },
+    "*.definition": {
+      "fontStyle": "bold"
+    },
+    "*.readonly": {
+      "foreground": "#c792ea"
+    },
+    "*.static": {
+      "fontStyle": "italic"
+    },
+    "*.deprecated": {
+      "fontStyle": "strikethrough",
+      "foreground": "#8b7a9b"
+    },
+    "*.abstract": {
+      "fontStyle": "italic"
+    },
+    "*.async": {
+      "fontStyle": "italic"
+    },
+    "*.modification": {
+      "foreground": "#ff8c42"
+    },
+    "*.documentation": {
+      "fontStyle": "italic"
+    },
+    "*.defaultLibrary": {
+      "foreground": "#64ffda"
+    },
+    "class.typescript": "#c792ea",
+    "class.javascript": "#c792ea",
+    "interface.typescript": "#82b1ff",
+    "type.typescript": "#c792ea",
+    "typeParameter.typescript": "#c792ea",
+    "enum.typescript": "#c792ea",
+    "enumMember.typescript": "#ff8c42",
+    "namespace.typescript": "#c792ea",
+    "module.typescript": "#c792ea",
+    "class.python": "#c792ea",
+    "function.python": "#82b1ff",
+    "method.python": "#82b1ff",
+    "variable.python": "#f4f1f4",
+    "parameter.python": {
+      "foreground": "#f4f1f4",
+      "fontStyle": "italic"
+    },
+    "decorator.python": "#ff6b35",
+    "class.java": "#c792ea",
+    "interface.java": "#82b1ff",
+    "method.java": "#82b1ff",
+    "field.java": "#82b1ff",
+    "annotation.java": "#ff6b35",
+    "class.csharp": "#c792ea",
+    "interface.csharp": "#82b1ff",
+    "struct.csharp": "#c792ea",
+    "enum.csharp": "#c792ea",
+    "method.csharp": "#82b1ff",
+    "property.csharp": "#82b1ff",
+    "event.csharp": "#ff6b35",
+    "namespace.csharp": "#c792ea",
+    "struct.rust": "#c792ea",
+    "enum.rust": "#c792ea",
+    "trait.rust": "#82b1ff",
+    "function.rust": "#82b1ff",
+    "method.rust": "#82b1ff",
+    "macro.rust": "#ff6b35",
+    "module.rust": "#c792ea",
+    "struct.go": "#c792ea",
+    "interface.go": "#82b1ff",
+    "function.go": "#82b1ff",
+    "method.go": "#82b1ff",
+    "package.go": "#c792ea",
+    "property.css": "#82b1ff",
+    "class.css": "#ff6b35",
+    "id.css": "#ff6b35",
+    "pseudoClass.css": "#c792ea",
+    "pseudoElement.css": "#c792ea",
+    "tag.html": "#ff6b35",
+    "attribute.html": "#82b1ff",
+    "property.json": "#82b1ff",
+    "string.json": "#64ffda",
+    "number.json": "#ff8c42",
+    "boolean.json": "#c792ea",
+    "null.json": "#c792ea"
+  }
 }
